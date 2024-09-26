@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ba53c5 0%, #6b0714 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    background-color: white;
+    border-radius: 50px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .stopwatch h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #58030e;
+  }
+  
+  .display {
+    font-size: 3rem;
+    font-weight: bold;
+    background: #601c68;
+    padding: 20px;
+    border-radius: 50px;
+    color: rgb(223, 213, 213);
+    box-shadow: inset 0 0 10px rgba(83, 9, 9, 0.1);
+  }
+  
+  .buttons {
+    margin-top: 50px;
+  }
+  
+  button {
+    font-size: 2rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #490711;
+  }
+  
+  .startbtn {
+    background-color: #106424;
+  }
+  
+  .startbtn:hover {
+    background-color: #1b7a31;
+  }
+  .pausebtn {
+    background-color: #0f5202;
+  }
+  
+  .pausebtn:hover {
+    background-color: #358308;
+  }
+  .stoptbtn {
+    background-color: #6b0c15;
+  }
+  
+  .stoptbtn:hover {
+    background-color: #a8404b;
+  }
+  
+  .resetbtn {
+    background-color: #886a0e;
+  }
+  
+  .resetbtn:hover {
+    background-color: #ecc243;
+  }
+  
+
+
+
+   
+
